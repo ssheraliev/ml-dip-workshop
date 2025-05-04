@@ -27,7 +27,7 @@ Assistant is built around several key components working in harmony:
         * Does it need to perform a **web search** (using **Tavily**)?
 
 * 💡 **Contextual Generation:**
-    * Leverages a **locally running LLM (Gemma 3 via Ollama)**.
+    * Leverages a **locally running LLM (Gemma 3 via Ollama)**
     * Generates precise solutions and answers based on the **retrieved context**, whether it came from curated knowledge base or a real-time web search
 
 ---
