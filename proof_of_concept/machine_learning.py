@@ -18,7 +18,7 @@ chain = prompt | model
 
 def handle_conversation():
     context = ""
-    print("Welcome to Machine Learning assistance! Type 'exit' to end the session.")
+    print("Welcome to Machine Learning tasks assistance! Type 'exit' to end the session.")
     while True:
         user_input = input("Engineer: ")
         if user_input.lower() == "exit":

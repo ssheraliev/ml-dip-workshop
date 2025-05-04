@@ -18,14 +18,14 @@ chain = prompt | model
 
 def handle_conversartion():
     context = ""
-    print("Welcome to Python Assistant! Type 'exit' to quit.")
+    print("Welcome to Python tasks assistance! Type 'exit' to quit.")
     while True:
         user_input = input("Engineer: ")
         if user_input.lower() == "exit":
             break
         result = chain.invoke({"context": context, "prompt": user_input})
         print("Python Assistant: ", result)
-        context += f"\nUser: {user_input}\nPython Assistant: {result}"     
+        context += f"\nEngineer: {user_input}\nPython Assistant: {result}"     
 
 if __name__ == "__main__":
     handle_conversartion()  
