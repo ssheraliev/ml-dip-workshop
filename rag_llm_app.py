@@ -237,7 +237,7 @@ else:
 
 
 # --- Streamlit application ---
-st.title("🥷 Python/ML Style & Rules Assistant")
+st.title("🥷 Python and Machine Learning tasks assistance")
 st.caption(f"Running via Ollama ({LLM_MODEL}), Vector Database, Nomic Embeddings & Tavily")
 
 # chat history init
