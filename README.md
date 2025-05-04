@@ -1,6 +1,6 @@
 ## 🚀 Coding Assistant: RAG powered development companion
 
-Tired of sifting through documentation, fear to expose sensitive data? Meet the **Coding Python and ML assistant**, a powerful tool designed to bring relevant knowledge directly to your fingertips, running entirely on local machine
+Tired of sifting through documentation, fear of exposing sensitive data? Meet the **Coding Python and ML assistant**, a powerful tool designed to bring relevant knowledge directly to your fingertips, running entirely on local machine
 
 ---
 
@@ -15,11 +15,11 @@ The core mission? To significantly **enhance the capabilities of Large Language 
 Assistant is built around several key components working in harmony:
 
 * 💾 **Indexing & Knowledge Base:**
-    * Ingests knowledge from specific, authoritative sources (currently **Python PEP8**, **Google's Python Style Guide**,  and **Google ML Rules**).
-    * Stores this knowledge persistently in a **Vector Store** for efficient retrieval.
+    * Ingests knowledge from specific, authoritative sources (currently **Python PEP8**, **Google's Python Style Guide**,  and **Google ML Rules**)
+    * Stores this knowledge persistently in a **Vector Store** for efficient retrieval
 
 * 🧠 **Intelligent Runtime:**
-    * Ready to tackle toughest challanges on **coding problems**, **Machine Learning tasks**, and **Algorithm implementations**.
+    * Ready to tackle toughest challanges on **coding problems**, **Machine Learning tasks**, and **Algorithm implementations**
 
 * 🚦 **Smart Routing:**
     * When I ask a question, the system application decides:
