@@ -242,7 +242,7 @@ st.caption(f"Running via Ollama ({LLM_MODEL}), Vector Database, Nomic Embeddings
 
 # chat history init
 if 'messages' not in st.session_state:
-    st.session_state.messages = [{"role": "assistant", "content": "Hi! Ask me about Python style (PEP8/Google), ML Rules, or general programming questions."}]
+    st.session_state.messages = [{"role": "assistant", "content": "Welcome! Ask me about Python, Machine Learning, or general programming questions."}]
 
 # chat history
 for message in st.session_state.messages:

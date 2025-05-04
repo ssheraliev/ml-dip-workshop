@@ -1,21 +1,21 @@
-## 🚀 Coding Assistant: local RAG powered Development companion
+## 🚀 Coding Assistant: RAG powered development companion
 
-Tired of sifting through documentation or online forums for coding help? Meet the **Coding Assistant**, a powerful tool designed to bring relevant knowledge directly to your fingertips, running entirely on local machine
+Tired of sifting through documentation, fear to expose sensitive data? Meet the **Coding Python and ML assistant**, a powerful tool designed to bring relevant knowledge directly to your fingertips, running entirely on local machine
 
 ---
 
 ### ✨ Goal
 
-The core mission? To significantly **enhance the capabilities of a Large Language Models (LLM)** by building a robust **Retrieval Augmented Generation (RAG)** system.
+The core mission? To significantly **enhance the capabilities of Large Language Models (LLM)** by building a robust **Retrieval Augmented Generation (RAG)** system that helps to generate mature Pythonic solution, assist with troubleshooting, craft meaningful ML solutions
 
 ---
 
 ### 🛠️ How It Works (Functionality)
 
-This assistant is built around several key components working in harmony:
+Assistant is built around several key components working in harmony:
 
 * 💾 **Indexing & Knowledge Base:**
-    * Ingests knowledge from specific, authoritative sources (currently **Python PEP8**, **Google Python Style Guide**,  and **Google ML Rules**).
+    * Ingests knowledge from specific, authoritative sources (currently **Python PEP8**, **Google's Python Style Guide**,  and **Google ML Rules**).
     * Stores this knowledge persistently in a **Vector Store** for efficient retrieval.
 
 * 🧠 **Intelligent Runtime:**
@@ -36,7 +36,7 @@ This assistant is built around several key components working in harmony:
 
 Built with open source:
 
-* **Framework:** Langchain - Orchestrating the RAG pipeline
+* **Framework:** Langchain - orchestrating the RAG pipeline
 * **LLM Server:** Ollama - running Google's large language model Gemma 3
 * **Embedding Model:** Nomic Embeddings - generating vectors for local inference
 * **Vector Store:** Open Source Vector Database (*📝 To be Implemented*) - for persistent knowledge storage
