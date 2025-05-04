@@ -19,7 +19,7 @@ Assistant is built around several key components working in harmony:
     * Stores this knowledge persistently in a **Vector Store** for efficient retrieval
 
 * 🧠 **Intelligent Runtime:**
-    * Ready to tackle toughest challanges on **coding problems**, **Machine Learning tasks**, and **Algorithm implementations**
+    * Ready to tackle toughest challenges on **coding problems**, **Machine Learning tasks**, and **Algorithm implementations**
 
 * 🚦 **Smart Routing:**
     * When I ask a question, the system application decides:
